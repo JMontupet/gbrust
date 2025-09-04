@@ -1,0 +1,9 @@
+[workspace]
+
+members = ["gbcore", "gbgl"]
+
+[profile.release]
+strip = true
+lto = true
+opt-level = 3
+codegen-units = 1

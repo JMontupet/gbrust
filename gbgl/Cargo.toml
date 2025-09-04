@@ -1,0 +1,12 @@
+[package]
+name = "gbgl"
+version = "0.1.0"
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gl = "0.14.0"
+gl_matrix = "0.0.2"
+glfw = "0.60.0"
+gbcore = { path = "../gbcore" }
